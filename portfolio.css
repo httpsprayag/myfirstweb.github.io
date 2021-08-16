@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    font-family:cursive;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 100px;
+
+}
+
+.logo{
+    font-size: 55px;
+    letter-spacing: 5px;
+    color: black;
+}
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.menu a:last-child{
+    background: red;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.htext{
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left:10%;
+}
+.htext h1{
+    font-size: 2.5em;
+    color:black;
+}
+.htext p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.htext a{
+    text-decoration: none;
+    background: #8601df;
+    color:white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.x:hover{
+    background: transparent;
+    color:black;
+    background: #04ff19;
+    box-shadow: 2px 2px gray ;
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:rgba(0, 0, 0, 0.781);
+    z-index: -1;
+}
+#prayag{
+    width: 500px;
+    height: 85%;
+    position: absolute;
+    right: 5%;   
+}
+#prayag:hover{
+    box-shadow: 5px 5px 10px white;
+}
+
+#a:hover{
+    background: rgb(164, 3, 185);
+    box-shadow: 5px 5px 5px wheat;
+}
